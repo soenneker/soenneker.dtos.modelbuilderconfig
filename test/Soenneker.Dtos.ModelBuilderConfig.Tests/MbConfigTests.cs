@@ -1,11 +1,10 @@
-﻿using Soenneker.Tests.Unit;
-using Xunit;
+using Soenneker.Tests.Unit;
 
 namespace Soenneker.Dtos.ModelBuilderConfig.Tests;
 
 public sealed class MbConfigTests : UnitTest
 {
-    [Fact]
+    [Test]
     public void Default()
     {
 
